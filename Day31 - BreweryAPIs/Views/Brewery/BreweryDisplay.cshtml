@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "BreweryDisplay";
+}
+
+@model List<Brew>
+
+
+<h1>Brewery Display</h1>
+
+<form action="../Brewery/DisplayByState" method="post">
+
+    <input type="search" name="state" value="" />
+
+    <input type="submit"  value="Choose State!" />
+
+
+</form>
+
+
